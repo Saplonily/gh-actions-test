@@ -1,0 +1,14 @@
+name: Test gh action name
+
+on: 
+  push:
+    branches:
+      - "master"
+
+jobs:
+  action-test-job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: step01
+        run: |
+          echo "test message from github actions!!!!"
