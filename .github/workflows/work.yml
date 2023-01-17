@@ -9,7 +9,13 @@ jobs:
   action-test-job:
     runs-on: ubuntu-20.04
     steps:
+      # 拉代码
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
       - name: step01
         run: |
           echo "test message from github actions!!!!"
-          dotnet --version
+          cd dotnet_check
+          dotnet run
