@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "master"
-    paths:
-      - "!test_dir/test.txt"
+    paths-ignore:
+      - "test_dir/test.txt"
     
     
 
