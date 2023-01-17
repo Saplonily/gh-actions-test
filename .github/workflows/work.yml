@@ -12,3 +12,4 @@ jobs:
       - name: step01
         run: |
           echo "test message from github actions!!!!"
+          dotnet --version
