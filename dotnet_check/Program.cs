@@ -1,1 +1,1 @@
-﻿File.WriteAllText("test_dir/test.txt", $"test~~~~, {Environment.OSVersion}, {DateTime.Now}");
+﻿File.WriteAllText("../test_dir/test.txt", $"test~~~~, {Environment.OSVersion}, {DateTime.Now}");
