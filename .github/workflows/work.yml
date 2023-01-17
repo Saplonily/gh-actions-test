@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - "master"
-    tags:
-      - "^[^g-].*$"
+    paths:
+      - "!test_dir/test.txt"
+    
     
 
 jobs:
