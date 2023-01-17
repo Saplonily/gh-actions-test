@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿File.WriteAllText("test_dir/test.txt", $"test~~~~, {Environment.OSVersion}, {DateTime.Now}");
